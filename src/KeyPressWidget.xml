@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget id="auraq.keypresswidget.KeyPressWidget" pluginWidget="true" needsEntityContext="true"
+    offlineCapable="true"
+    supportedPlatform="Web"
+    xmlns="http://www.mendix.com/widget/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.mendix.com/widget/1.0/ ../node_modules/mendix/custom_widget.xsd">
+    <name>Key Press Widget</name>
+    <description>A widget which allows different actions to be executed depending on which keys used together with click event.</description>
+    <icon />
+    <properties>
+        <propertyGroup caption="General">
+            <propertyGroup caption="Key Bind">
+
+
+                <property key="keyBinds" type="object" isList="true">
+                    <caption>Key Binds</caption>
+                    <description>Collection of key binds and on click actions to run while holding down the key and clicking. 
+                    </description>
+                    <properties>
+                        <propertyGroup caption="Key Binds">
+                            <property key="keyModifier" type="enumeration" defaultValue="Alt">
+                                <caption>Key modifier</caption>
+                                <description>Action to be executed on click</description>
+                                <enumerationValues>
+                                    <enumerationValue key="Control">Ctrl</enumerationValue>
+                                    <enumerationValue key="Alt">Alt</enumerationValue>
+                                    <enumerationValue key="A">A</enumerationValue>
+                                    <enumerationValue key="B">B</enumerationValue>
+                                    <enumerationValue key="C">C</enumerationValue>
+                                    <enumerationValue key="D">D</enumerationValue>
+                                    <enumerationValue key="E">E</enumerationValue>
+                                    <enumerationValue key="F">F</enumerationValue>
+                                    <enumerationValue key="G">G</enumerationValue>
+                                    <enumerationValue key="H">H</enumerationValue>
+                                    <enumerationValue key="I">I</enumerationValue>
+                                    <enumerationValue key="J">J</enumerationValue>
+                                    <enumerationValue key="K">K</enumerationValue>
+                                    <enumerationValue key="L">L</enumerationValue>
+                                    <enumerationValue key="M">M</enumerationValue>
+                                    <enumerationValue key="N">N</enumerationValue>
+                                    <enumerationValue key="O">O</enumerationValue>
+                                    <enumerationValue key="P">P</enumerationValue>
+                                    <enumerationValue key="Q">Q</enumerationValue>
+                                    <enumerationValue key="R">R</enumerationValue>
+                                    <enumerationValue key="S">S</enumerationValue>
+                                    <enumerationValue key="T">T</enumerationValue>
+                                    <enumerationValue key="U">U</enumerationValue>
+                                    <enumerationValue key="V">V</enumerationValue>
+                                    <enumerationValue key="W">W</enumerationValue>
+                                    <enumerationValue key="X">X</enumerationValue>
+                                    <enumerationValue key="Y">Y</enumerationValue>
+                                    <enumerationValue key="Z">Z</enumerationValue>
+                                    <enumerationValue key="ArrowUp">Arrow Up</enumerationValue>
+                                    <enumerationValue key="ArrowDown">Arrow Down</enumerationValue>
+                                    <enumerationValue key="ArrowLeft">Arrow Left</enumerationValue>
+                                    <enumerationValue key="ArrowRight">Arrow Right</enumerationValue>
+                                </enumerationValues>
+                            </property>
+                            <property key="onClickAction" type="action">
+                                <caption>On Click</caption>
+                                <description></description>
+                            </property>
+                        </propertyGroup>
+                    </properties>
+                </property>
+            </propertyGroup>
+            <propertyGroup caption="Content">
+                <property key="content" type="widgets" required="false">
+                    <caption>Content</caption>
+                    <description>Content of a box</description>
+                </property>
+            </propertyGroup>
+        </propertyGroup>
+    </properties>
+</widget>
