@@ -11,6 +11,6 @@ A widget which allows different actions to be executed depending on which keys u
 [Demo project](https://keypressdemo-sandbox.mxapps.io/index.html?profile=Responsive)
 
 ## Issues, suggestions and feature requests
-[link to GitHub issues]
+[link to GitHub issues](https://github.com/Underdark1992/KeyPressWidget/issues)
 
 
