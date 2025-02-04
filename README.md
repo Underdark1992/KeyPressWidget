@@ -1,24 +1,16 @@
 ## KeyPressWidget
-[A widget which allows different actions to be executed depending on which keys used together with click event.]
+A widget which allows different actions to be executed depending on which keys used together with click event.
 
 ## Features
-[feature highlights]
-
+- Keybinds selected from list can be mapped to on click actions.
 ## Usage
-[step by step instructions]
+- Developer can map different actions to different key modifiers. This can be useful if multiple different microflows needs to be tested as there are no needs to include buttons for each of them.
+- When a key modifired is mapped user can call the selected on-click action with the modifier being held down.
 
 ## Demo project
-[link to sandbox]
+[Demo project](https://keypressdemo-sandbox.mxapps.io/index.html?profile=Responsive)
 
 ## Issues, suggestions and feature requests
 [link to GitHub issues]
 
-## Development and contribution
 
-1. Install NPM package dependencies by using: `npm install`. If you use NPM v7.x.x, which can be checked by executing `npm -v`, execute: `npm install --legacy-peer-deps`.
-1. Run `npm start` to watch for code changes. On every change:
-    - the widget will be bundled;
-    - the bundle will be included in a `dist` folder in the root directory of the project;
-    - the bundle will be included in the `deployment` and `widgets` folder of the Mendix test project.
-
-[specify contribution]
