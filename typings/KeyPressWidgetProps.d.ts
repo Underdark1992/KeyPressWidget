@@ -23,6 +23,7 @@ export interface KeyPressWidgetContainerProps {
     class: string;
     style?: CSSProperties;
     tabIndex?: number;
+    defaultOnclickAction?: ActionValue;
     keyBinds: KeyBindsType[];
     content?: ReactNode;
 }
@@ -38,6 +39,7 @@ export interface KeyPressWidgetPreviewProps {
     readOnly: boolean;
     renderMode: "design" | "xray" | "structure";
     translate: (text: string) => string;
+    defaultOnclickAction: {} | null;
     keyBinds: KeyBindsPreviewType[];
     content: { widgetCount: number; renderer: ComponentType<{ children: ReactNode; caption?: string }> };
 }

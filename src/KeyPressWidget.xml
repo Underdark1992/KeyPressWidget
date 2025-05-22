@@ -9,10 +9,14 @@
     <icon />
     <properties>
         <propertyGroup caption="General">
+            <propertyGroup caption="On click">
+                <property key="defaultOnclickAction" type="action">
+                    <caption>Onclick action</caption>
+                    <description>The default onclick action which will run without a modifier</description>
+                </property>
+            </propertyGroup>
             <propertyGroup caption="Key Bind">
-
-
-                <property key="keyBinds" type="object" isList="true">
+                <property key="keyBinds" type="object" isList="true" required="false">
                     <caption>Key Binds</caption>
                     <description>Collection of key binds and on click actions to run while holding down the key and clicking. 
                     </description>
